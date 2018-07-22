@@ -2,7 +2,7 @@ import React, { Component } from "react";
 //import { Button, FormGroup, Label, Input } from "reactstrap";
 import { Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
 
-import "../css/Login.scss";
+import "../css/Login.css";
 
 export default class Login extends Component {
     constructor(props) {

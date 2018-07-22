@@ -3,7 +3,7 @@ import { PropTypes } from 'prop-types';
 import Component2 from '../components/Component2';
 import Component1 from '../components/Component1';
 import { Breadcrumb, BreadcrumbItem } from 'reactstrap';
-import '../css/HomeContainer.scss';
+import '../css/HomeContainer.css';
 
 export default class HomeContainer extends  Component {
     constructor(props) {

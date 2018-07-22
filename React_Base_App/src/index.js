@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import HomeContainer from '../src/containers/HomeContainer';
 import MainContainer from '../src/containers/MainContainer'
 import 'bootstrap/dist/css/bootstrap.css';
-import  '../src/css/index.scss';
+import './css/index.css';
 
 import Login from '../src/containers/Login';
 

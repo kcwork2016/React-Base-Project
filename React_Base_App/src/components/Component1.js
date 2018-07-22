@@ -1,6 +1,6 @@
 import React from 'react';
 import {CardBody, ListGroup, ListGroupItem, Button} from 'reactstrap';
-import '../css/Component1.scss';
+import '../css/Component1.css';
 
 export default function  DrugDisplay (props){
 

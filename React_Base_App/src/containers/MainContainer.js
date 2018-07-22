@@ -13,8 +13,8 @@ export default class MainContainer extends Component {
 
     render( ) {
         return(
-            <div>
-                <Header/>
+            <div className="div-main">
+
                 <Footer/>
             </div>
         );

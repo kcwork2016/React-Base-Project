@@ -1,11 +1,12 @@
 import React from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Badge, Row, Col  } from 'reactstrap';
 import {Navbar, NavItem, MenuItem, NavDropdown, Nav} from 'react-bootstrap';
+import '../css/Header.css';
 
 export default function Header (props) {
 
     return (
-    <Navbar>
+    <Navbar className='header-part'>
         <Navbar.Header>
             <Navbar.Brand>
                 <a href="#home">React-Bootstrap</a>
