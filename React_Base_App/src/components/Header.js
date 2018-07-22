@@ -6,35 +6,10 @@ import '../css/Header.css';
 export default function Header (props) {
 
     return (
-    <Navbar className='header-part'>
-        <Navbar.Header>
-            <Navbar.Brand>
-                <a href="#home">React-Bootstrap</a>
-            </Navbar.Brand>
-        </Navbar.Header>
-        <Nav>
-            <NavItem eventKey={1} href="#">
-                Link
-            </NavItem>
-            <NavItem eventKey={2} href="#">
-                Link
-            </NavItem>
-            <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-                <MenuItem eventKey={3.1}>Action</MenuItem>
-                <MenuItem eventKey={3.2}>Another action</MenuItem>
-                <MenuItem eventKey={3.3}>Something else here</MenuItem>
-                <MenuItem divider/>
-                <MenuItem eventKey={3.4}>Separated link</MenuItem>
-            </NavDropdown>
-        </Nav>
-    </Navbar>
+    <div className='header-part'>
+        <a href="//www.google.com" title="google.com" target="_top">
+            <img className="app-logo" src="//img.alicdn.com/tfs/TB1_Gn8RXXXXXXqaFXXXXXXXXXX-380-54.png"/>
+        </a>
+    </div>
 );
 }
-
-// <!-- Image and text -->
-// <nav class="navbar navbar-light bg-light">
-//     <a class="navbar-brand" href="#">
-//         <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-//             Bootstrap
-//     </a>
-// </nav>

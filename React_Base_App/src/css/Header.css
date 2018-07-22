@@ -1,3 +1,7 @@
-.header-part.header-part {
+.header-part {
 
+    padding: 22px 0px;
+    height: 44px;
+    width: 1190px;
+    margin: auto;
 }
