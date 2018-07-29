@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import HomeContainer from './containers/HomeContainer'
 import 'bootstrap/dist/css/bootstrap.css';
-import './css/index.css';
+import './assets/css/index.css';
 
 import Login from '../src/containers/Login';
 

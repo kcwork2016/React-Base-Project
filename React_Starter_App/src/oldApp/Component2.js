@@ -1,6 +1,6 @@
 import React from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Badge, Row, Col  } from 'reactstrap';
-import '../css/Component2.css';
+import '../assets/css/Component2.css';
 export default class Component2 extends React.Component {
     constructor(props) {
         super(props);
